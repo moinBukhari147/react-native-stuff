@@ -1,7 +1,7 @@
 # react-native-stuff
 Contains the reusable command and stuff of reactnative
 
-## Build expo react-native app locally:
+## Expo react-native:
 - To build the ios and android project locally and to reflect the changes in app.json
 ```bash
   npx expo prebuild
@@ -23,3 +23,50 @@ Contains the reusable command and stuff of reactnative
   npx expo prebuild --platform ios
 ```
   
+## Expo EAS:
+- To install the eas cli globally:
+```bash
+  npm install -g eas-cli
+```
+
+- To check who is login or whose expo dev account is in use:
+```bash
+  eas whoami
+```
+
+- To login with expo dev account for eas:
+```bash
+  eas login
+```
+
+- Initialize new eas project:
+```bash
+  eas init
+```
+
+- To condigure different flows and setting for ios, android or all:
+```bash
+  eas configure
+```
+  eas json is created after running this command.
+
+- To create the development build with eas for ios:
+```bash
+  eas build --profile development --platform ios
+```
+
+- To create the development build with eas for android:
+```bash
+  eas build --profile development --platform android
+```
+
+- To create the development build with eas for ios locally on pc:
+```bash
+  eas build --profile development --platform ios --local
+```
+
+- To create the development build with eas for android locally on pc:
+```bash
+  eas build --profile development --platform android --local
+```
+
