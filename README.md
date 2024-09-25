@@ -58,9 +58,14 @@ Contains the reusable command and stuff of reactnative
 
 - To condigure different flows and setting for ios, android or all:
 ```bash
-  eas configure
+  eas build:configure
 ```
   eas json is created after running this command.
+
+- To get the signing creadentials:
+```bash
+  eas credentials
+```
 
 - To create the development build with eas for ios:
 ```bash
