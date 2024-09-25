@@ -22,6 +22,18 @@ Contains the reusable command and stuff of reactnative
 ```bash
   npx expo prebuild --platform ios
 ```
+
+- To run app on ios device:
+```bash
+  npx expo run:ios
+  npm expo run:ios --device
+```
+
+- To run app on android device:
+```bash
+  npx expo run:android
+  npm expo run:android --device
+```
   
 ## Expo EAS:
 - To install the eas cli globally:
