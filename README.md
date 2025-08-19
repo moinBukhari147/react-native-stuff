@@ -2,11 +2,12 @@
 Contains the reusable command and stuff of reactnative
 
 ## Expo react-native:
-- To build the ios and android project locally and to reflect the changes in app.json
+- To create the ios and android project locally with the changes in app.json
 ```bash
   npx expo prebuild
 ```
-  the local change made directly in the android and ios folder will over written after running this command.
+  The local change made directly in the android and ios folder will over written after running this command.
+  We have to run this command every time if we have already created Android and iOS folders, and we have installed the expo managed library that changes the native code like expo notification, to reflect the changes in the native code before creating a new build
 
 - To build and reflect the changes by removing previous cache:
 ```bash
